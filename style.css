@@ -32,13 +32,17 @@ img{
     color: #f39c66;
 }
 .logos img{
-    width: 80%;
+    width: 100%;
 }
 
 .logos{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
+}
+.logo{
+    width:15%;
+    margin:2%;
 }
 
 h1{
@@ -102,5 +106,8 @@ p{
     }
     p{
         font-size: 3.1vw;
+    }
+    .logos p{
+        display: none;
     }
 }
