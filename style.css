@@ -81,7 +81,7 @@ p{
     padding: 0.5rem;
     margin: 0.5rem;
     max-width: 360px;
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.315);
 }
 
 .site-card img{
@@ -90,7 +90,7 @@ p{
 }
 
 .site-card:hover {
-    background:  #f4f4f4;
+    background:  #ffffff72;
 }
 
 @media only screen and (max-width: 812px) {
